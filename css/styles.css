@@ -1,0 +1,248 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-style: normal;
+}
+
+:root {
+  --back-color: #2e2f42;
+  --white: #ffffff;
+  --blue: #4d5ae5;
+  --light-blue: #404bbf;
+  --light-black: #434455;
+  --black-white: #f4f4fd;
+  --light-white: #e7e9fc;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*------------ HEADER------------- */
+.header {
+  background: var(--white);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.header-logo span {
+  color: var(--back-color);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--back-color);
+}
+
+.header-nav:hover {
+  color: var(--light-blue);
+}
+
+.header-nav:focus {
+  color: var(--light-blue);
+}
+
+.address {
+  font-style: normal;
+}
+
+.header-address:hover,
+.header-address:focus {
+  color: var(--light-blue);
+}
+
+.address-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
+
+.address-nav:hover {
+  color: var(--light-blue);
+}
+.address-nav:focus {
+  color: var(--light-blue);
+}
+
+/*--------------- PAGE ----------- */
+.page {
+  background: var(--back-color);
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.page-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+.page-btn:hover,
+.page-btn:focus {
+  background-color: var(--light-blue);
+}
+
+.content-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--back-color);
+}
+
+.content-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
+/*--------------- img--------------------- */
+
+.img-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--back-color);
+}
+
+/*------------------ TEAM--------------- */
+
+.team {
+  background: var(--black-white);
+}
+
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--back-color);
+}
+
+.list-color {
+  background-color: var(--white);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: var(--back-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
+/*------------- footer ------------*/
+.footer {
+  background: var(--back-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.span {
+  color: var(--black-white);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-white);
+  text-align: left;
+}
+.imagess {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--back-color);
+}
+
+/*--------------- PORTFOLIO------------- */
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--blue);
+  background-color: var(--black-white);
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white);
+  background-color: var(--light-blue);
+}
+
+/*------------ IMG-BODY---------- */
+
+.img-body {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--back-color);
+}
+
+.img-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
