@@ -55,6 +55,7 @@ img {
   background: var(--white);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-list {
@@ -164,14 +165,19 @@ img {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
-  background-color: var(--blue);
   cursor: pointer;
 }
 
 .page-btn {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   padding: 16px 32px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--blue);
 }
 
 .page-btn:hover,
@@ -182,7 +188,7 @@ img {
 /*---------------- CONTENT---------------- */
 
 .content-title {
-  width: 264px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -191,7 +197,6 @@ img {
 }
 
 .content-text {
-  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -201,7 +206,6 @@ img {
 .content {
   display: flex;
   gap: 24px;
-  margin-top: 8px;
 }
 
 /*--------------- img--------------------- */
@@ -232,6 +236,10 @@ img {
   height: auto;
 }
 
+.img-container {
+  padding-bottom: 120px;
+}
+
 /*------------------ TEAM--------------- */
 
 .team {
@@ -241,8 +249,6 @@ img {
 }
 
 .team-heading {
-  width: 162px;
-  margin: 0 auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -253,7 +259,7 @@ img {
 }
 
 .team-list {
-  padding-top: 72px;
+  margin-top: 72px;
   gap: 24px;
   display: flex;
 }
@@ -274,7 +280,7 @@ img {
   color: var(--back-color);
 }
 .team-text {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -307,7 +313,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-white);
-  padding-top: 17.5px;
+  margin-top: 17.5px;
   max-width: 264px;
 }
 
@@ -320,6 +326,11 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--back-color);
+}
+
+.button {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .btn {
@@ -336,8 +347,9 @@ img {
 
 .btn {
   padding: 12px 24px;
-  border: 1px solid, var(--light-white);
+  border: 1px solid var(--light-white);
   border-radius: 4px;
+  border: none;
 }
 
 .btn:hover,
@@ -350,7 +362,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 /*------------ IMG-BODY---------- */
@@ -358,19 +370,14 @@ img {
 .button-img {
   display: flex;
   flex-wrap: wrap;
-  padding: 72px 0 120px;
   gap: 48px 24px;
 }
 
 .img-text {
-  border: 1px solid var(--light-white);
-  width: 360px;
 }
 
 .img-body {
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -379,10 +386,13 @@ img {
 }
 
 .img-parag {
-  margin-bottom: 32px;
-  margin-left: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-black);
+}
+
+.img-list {
+  border: 1px solid var(--light-white);
+  padding: 32px 16px;
 }
