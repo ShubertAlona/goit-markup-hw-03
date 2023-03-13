@@ -208,6 +208,14 @@ img {
   gap: 24px;
 }
 
+.content-list {
+  width: 264px;
+}
+
+.title-section {
+  display: none;
+}
+
 /*--------------- img--------------------- */
 
 .img-title {
@@ -267,6 +275,7 @@ img {
 .list-color {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 32px;
 }
 
 .team-title {
@@ -280,7 +289,6 @@ img {
   color: var(--back-color);
 }
 .team-text {
-  padding-bottom: 32px;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -362,7 +370,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 /*------------ IMG-BODY---------- */
@@ -393,6 +401,8 @@ img {
 }
 
 .img-list {
+  background: var(--white);
   border: 1px solid var(--light-white);
   padding: 32px 16px;
+  border-width: 0px 1px 1px 1px;
 }
